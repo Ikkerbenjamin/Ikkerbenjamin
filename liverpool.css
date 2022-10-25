@@ -1,10 +1,11 @@
 h1 {
-text-align: center; font-size: 700%;
-letter-spacing: 5px;
+    text-align: center; font-size: 1000%;
+    letter-spacing: 10px;
+    color: white;
 }
 p {
     text-align: center;
-    font-size: 300%;
+    font-size: 600%;
 }
 .szellos {
     letter-spacing: 3px;
@@ -12,4 +13,13 @@ p {
 .img {
 
 font-size: 5%;    
+}
+body {
+background-image: url("kepek/hatter4.jpg");
+}
+
+.motto {
+    color: white;
+    font-size: 300%;
+    font-family: 'Courier New', Courier, monospace
 }
