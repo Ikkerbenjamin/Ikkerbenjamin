@@ -1,3 +1,53 @@
 body {
     background-image: url(kepek/hatter4.jpg);
 }
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 600%;
+}
+
+ p {
+font-size: 30px;
+color: white;  
+text-align: center;
+}
+a {
+font-size: 30px;
+color: white;
+text-align: center;
+}
+
+.img {
+
+    width: 500px;
+    text-align: center;
+}
+.vissza {
+    font-size: 30px;
+color: white;  
+text-decoration: none;
+}
+h2 {
+    color: white;
+    font-size: 300%;
+text-align: left;
+}
+div {
+    font-size: 30px;
+    text-decoration: none;
+}
+table, td, tr {
+    border: 4px solid white;
+    border-collapse: collapse;
+    padding: 0.5cm;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    background-image: url(kepek/tablazat\ hatter.jpg);
+}
+
+table {
+    width: 100%;
+}

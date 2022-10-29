@@ -3,12 +3,13 @@ h1 {
     letter-spacing: 10px;
     color: white;
 }
+
+.szellos {
+    letter-spacing: 3px;
+}
 p {
     text-align: center;
     font-size: 600%;
-}
-.szellos {
-    letter-spacing: 3px;
 }
 .img {
 
@@ -22,4 +23,14 @@ background-image: url("kepek/hatter4.jpg");
     color: white;
     font-size: 300%;
     font-family: 'Courier New', Courier, monospace
+} 
+a {
+text-align: center;
+color: white;
+font-size: 60px;
+text-decoration: none;
+}
+ul {
+    list-style-image: url(kepek/Liverpool\ logo.png);
+    
 }
