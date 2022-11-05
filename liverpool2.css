@@ -51,3 +51,19 @@ table, td, tr {
 table {
     width: 100%;
 }
+.mez {
+    color: white;
+    font-size: 60px;
+}
+.mezz {
+
+font-size: 30px;
+color: white;
+text-align: center;
+}
+.kep {
+    width: 500px;
+    text-align: center;
+}
+
+
