@@ -50,10 +50,23 @@ table, td, tr {
 table {
     width: 100%;
 }
-.mez {
+.mez1 {
     color: white;
     font-size: 60px;
+    font-weight: bold;
+    border: 0 solid red;
+    margin-left: 400px;
 }
+
+.mez2 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    border: 0 solid red;
+    margin-left: 900px;
+    
+}
+
 .mezz {
 
 font-size: 30px;
@@ -61,9 +74,14 @@ color: white;
 text-align: center;
 font-weight: bold;
 }
+.kep1 {
+    width: 500px;
+    border: 0 solid red;
+    margin-left: 250px;
+}
 .kep {
     width: 500px;
-    text-align: center;
+    border: 0 solid red
 }
 
 ul {
