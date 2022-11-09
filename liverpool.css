@@ -10,13 +10,14 @@ h1 {
 p {
     text-align: center;
     font-size: 600%;
+    color: white;
 }
 .img {
 
 font-size: 5%;    
 }
 body {
-background-image: url("kepek/hatter4.jpg");
+background-image: url("kepek/vegleges.jpg");
 }
 
 .motto {
@@ -24,13 +25,85 @@ background-image: url("kepek/hatter4.jpg");
     font-size: 300%;
     font-family: 'Courier New', Courier, monospace
 } 
-a {
-text-align: center;
+
+
+.hivatkozas {
+    text-align: center;
 color: white;
 font-size: 60px;
 text-decoration: none;
+
 }
+
 ul {
-    list-style-image: url(kepek/Liverpool\ logo.png);
-    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #403A3A 
+    ;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red
+    ;
+  }
+  
+  .active {
+    background-color: #403A3A 
+    ;}
+
+    li a {
+        font-size: 25px;
+    }
+    li:last-child {
+        border-right: none;
+      }
+
+.kep1 {
+    border: 1px solid black;
+box-shadow: 10px 10px 10px 10px;
+width: 500px;
+margin-left: 100px;
+}    
+.kep2 {
+    border: 1px solid black;
+box-shadow: 10px 10px 10px 10px;
+width: 500px;
+margin-left: 280px;
+}
+.kep3 {
+    border: 1px solid black;
+box-shadow: 10px 10px 10px 10px;
+width: 500px;
+margin-left: 100px;
+}
+.kep4 {
+    border: 1px solid black;
+box-shadow: 10px 10px 10px 10px;
+width: 500px;
+margin-left: 280px;
+margin-top: 80px;
+}
+
+.liv {
+    font-size: 100px;
+    color: white;
+    text-align: center;
 }

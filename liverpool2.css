@@ -1,5 +1,5 @@
 body {
-    background-image: url(kepek/hatter4.jpg);
+    background-image: url("kepek/vegleges.jpg");
 }
 
 h1 {
@@ -8,22 +8,21 @@ h1 {
     font-size: 600%;
 }
 
- p {
-font-size: 30px;
-color: white;  
-text-align: center;
-}
+
 a {
 font-size: 30px;
 color: white;
 text-align: center;
 }
 
-.img {
 
-    width: 500px;
-    text-align: center;
+.img {
+    width: 600px;
+    border: 1px solid red;
+    margin-left: 450px;
+
 }
+
 .vissza {
     font-size: 30px;
 color: white;  
@@ -45,7 +44,7 @@ table, td, tr {
     color: white;
     font-size: 40px;
     text-align: center;
-    background-image: url(kepek/tablazat\ hatter.jpg);
+    background-color: red;
 }
 
 table {
@@ -60,9 +59,69 @@ table {
 font-size: 30px;
 color: white;
 text-align: center;
+font-weight: bold;
 }
 .kep {
     width: 500px;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #403A3A 
+    ;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red
+    ;
+  }
+  
+  .active {
+    background-color: #403A3A 
+    ;}
+
+    li a {
+        font-size: 25px;
+    }
+    li:last-child {
+        border-right: none;
+      }
+
+.plus {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.kozep {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.sima {
+    color: white;
+    font-size: 20px;
     text-align: center;
 }
 
