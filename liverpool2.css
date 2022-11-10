@@ -152,3 +152,11 @@ ul {
     margin-right: 25px;
 }
 
+img:hover {
+    width: 600px
+}
+
+img {
+    transition: width 2s;
+}
+
