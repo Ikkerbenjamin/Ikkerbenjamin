@@ -119,3 +119,11 @@ transition: width 2s;
     color: white;
     text-align: center;
 }
+img:hover {
+    width: 600px
+}
+
+img {
+    transition: width 1s;
+}
+
