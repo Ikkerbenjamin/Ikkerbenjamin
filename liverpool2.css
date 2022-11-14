@@ -159,4 +159,8 @@ img:hover {
 img {
     transition: width 1s;
 }
+#menulogo {
+    width: 60px;
+    float: right;
+}
 
